@@ -7,6 +7,10 @@ prepend your static assets with a version string.
 
 ### Setup
 
+```bash
+$ npm install express-asset-versions
+```
+
 ```javascript
 var express = require('express')
   , assets = require('express-asset-versions')
