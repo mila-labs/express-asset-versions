@@ -17,6 +17,7 @@ app.use('/public', express.static(assetPath));
 app.use(assets('/public', assetPath));
 
 app.listen(3000);
+```
 
 ### Templates
 
