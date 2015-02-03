@@ -1,6 +1,6 @@
 # express-asset-versions [![NPM version][npm-image]][npm-url]
 
-An [express.js](https://github.com/visionmedia/express) middleware and helper to
+An [express.js](http://expressjs.com/) middleware and helper to
 prepend your static assets with a version string.
 
 ## Usage

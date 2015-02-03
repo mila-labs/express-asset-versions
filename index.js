@@ -12,7 +12,7 @@ module.exports = function(urlPrefix, rootPath) {
     }
 
     var filePath = path.join(rootPath, file)
-      , fileUrl = path.join(urlPrefix, file);
+      , fileUrl = path.join(urlPrefix, file).replace(/\\/g, '/');
 
     if(!fs.existsSync(filePath)) {
       return fileUrl;
