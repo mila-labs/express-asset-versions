@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Example express and ejs</title>
+
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="<%= asset('css/style.css') %>">
+</head>
+<body>
+  <h1 class= "title">
+    Example with <img src="<%= asset('images/express.png') %>">and
+    <strong class="ejs" data-color="default">EJS</strong>
+  </h1>
+
+  <nav class="wrap-action">
+    <button class="action" data-color="default">
+      Default color
+    </button>
+    <button class="action" data-color="happy">
+      Happy color
+    </button>
+  </nav>
+
+  <script src="<%= asset('js/script.js') %>"></script>
+</body>
+</html>
